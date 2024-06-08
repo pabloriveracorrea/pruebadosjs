@@ -1,0 +1,65 @@
+.border-red {
+  border: 2px solid red;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+input {
+  width: 200px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* ejercicio dos*/
+
+.contenedordos {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 0px 100px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.frase {
+  align-content: center;
+  text-align: center;
+}
+
+.caja3 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+select,
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+p {
+  font-size: 18px;
+  color: #333;
+}
